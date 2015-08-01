@@ -16,6 +16,7 @@ deploy:
   api_key:
     secure: N5P65PzuHaA7N8GfXGT5+VoOd3+8KoT4QBuOov6fJXvN1k8ByASVX3u3zIvGqgTi6owQdKfA6zjVhnwBRKYW7BLxIFCE/jPFnPTazV0XaQDA9cALRILYvrzRdXbReFaksE7BnySLF/DWnGKLPPDlQDQRy0gHLPpxSuSs1ZZYq0CbWll++fr/RJQjK9qfUWlPS5PeXiFhj4WUzGQ245LWJiP1Clbnmj7U3bcLU7StEMWVjXZHQrh+7x9d4WGj6IINkdKz73//oyENYqBHkw7DxeoxOGnvLxj+4DhjQd7utc7ACsgSOSsY18/lC6sAAJ8MqXtqsNYdHfsiuXHbONU682p7xpo0fy0ts6GnOXA1jtVYY6BwBA2ppCpJX0QCzoghHokCNJKC1O5gxG5Fz8MNlVR44aEStFHZGhTnDwHUR8asVu8LZs0c9FSSPig4HNtZpBxqtwgNDKOG86CxfdMhkq1Ie+CcieRTwQayD83jWCdWyX1ty+bh/nctzxxo2/GOX0p6hP2XN0zxUB/YQyIsFnlHOxroe2xWWIRTFNh47pu3kNfHsSPoDTvkUpGAfffhI/VqvcDc6PzleMl4U2IUmNsyXp5wDomsneR6AfVWhrpeZFudAB4kJAUfZVGwWbTDXy0T5RTSoTdlImaRInVEa7o9V3MbuDmFzl9legFpb/k=
   strategy: git
+  app: ex-rails
   on:
     all_branches: true
     rvm: 2.1.5
