@@ -47,5 +47,13 @@ group :development, :test do
 
   gem 'rubocop', require: false
   gem 'rails-erd', require: false
+
+  group :production do
+    gem 'unicorn'
+    gem 'newrelic_rpm'
+  end
+
+ gem 'travis'
+ 
 end
 
