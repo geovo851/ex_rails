@@ -1,0 +1,21 @@
+Товары (goods):
+id
+code integer
+name string
+weight float
+height float
+width float
+length float
+
+Поствщики_товары (providers_goods)
+ provider_id integer
+ good_id integer
+
+Поставщики (provider):
+id 
+name string
+phone string
+address text
+comment text
+
+Склад (store):
