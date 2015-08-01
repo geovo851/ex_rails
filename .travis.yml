@@ -4,12 +4,12 @@ rvm:
 gemfile:
 - Gemfile
 
-before_install:
-  - 'echo ''gem: --no-ri --no-rdoc'' > ~/.gemrc'
+# before_install:
+#   - 'echo ''gem: --no-ri --no-rdoc'' > ~/.gemrc'
 
-before_script:
-  - psql -c 'create database ex_rails_test_db' -U postgres
-  - bundle exec rake db:create db:migrate db:schema:load
+# before_script:
+#   - psql -c 'create database ex_rails_test_db' -U postgres
+#   - bundle exec rake db:create db:migrate db:schema:load
 
 deploy:
   provider: heroku
@@ -23,8 +23,8 @@ deploy:
     run: 
     - "rake db:migrate"
     - restart
-after_success:
-  - bundle exec cap production deploy
-  - bundle exec cap production deploy:restart
+# after_success:
+#   - bundle exec cap production deploy
+#   - bundle exec cap production deploy:restart
 
 
