@@ -18,6 +18,8 @@ deploy:
   on:
     rvm: 2.1.5
   
-
+after_success:
+  - bundle exec cap production deploy
+  - bundle exec cap production deploy:restart
 
 
