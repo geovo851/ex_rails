@@ -14,3 +14,7 @@ deploy:
     master: ex-rails
   on:
     rvm: 2.1.5
+  run: 
+    - "rake db:create"
+    - "rake db:migrate"
+

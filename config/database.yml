@@ -24,5 +24,10 @@ test:
   database: ex_rails_test_db
 
 production:
-  <<: *default
   database: ex_rails_db
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  username: postgres
+  password: 
+  encoding: utf8
